@@ -327,7 +327,7 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -342,8 +342,8 @@
 						"selection":
 						[
 							[
-								80,
-								80
+								267,
+								267
 							]
 						],
 						"settings":
@@ -395,14 +395,15 @@
 						"selection":
 						[
 							[
-								313,
-								313
+								300,
+								300
 							]
 						],
 						"settings":
 						{
 							"auto_name": "#ifndef FOLDER_H",
-							"syntax": "Packages/C++/C++.tmLanguage"
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 94.0,
@@ -422,17 +423,18 @@
 						"selection":
 						[
 							[
-								724,
-								724
+								545,
+								545
 							]
 						],
 						"settings":
 						{
 							"auto_name": "#include <string>",
-							"syntax": "Packages/C++/C++.tmLanguage"
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 400.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
