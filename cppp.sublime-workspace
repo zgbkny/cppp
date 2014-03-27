@@ -108,45 +108,18 @@
 	"buffers":
 	[
 		{
-			"file": "copyNoMove.cc",
-			"settings":
-			{
-				"buffer_size": 470,
-				"line_ending": "Unix",
-				"name": "#include <utility>"
-			}
-		},
-		{
 			"file": "Makefile",
 			"settings":
 			{
-				"buffer_size": 166,
+				"buffer_size": 289,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "Folder.h",
+			"file": "asscon/erasemap.cc",
 			"settings":
 			{
-				"buffer_size": 2063,
-				"line_ending": "Unix",
-				"name": "#ifndef FOLDER_H"
-			}
-		},
-		{
-			"file": "HasPtrUseCount.cc",
-			"settings":
-			{
-				"buffer_size": 2508,
-				"line_ending": "Unix",
-				"name": "#include <string>"
-			}
-		},
-		{
-			"file": "Folder.cc",
-			"settings":
-			{
-				"buffer_size": 6351,
+				"buffer_size": 1074,
 				"line_ending": "Unix"
 			}
 		}
@@ -219,6 +192,23 @@
 	},
 	"file_history":
 	[
+		"/home/ww/code/c++/cppp/asscon/makefile",
+		"/home/ww/code/c++/cppp/copyNoMove.cc",
+		"/home/ww/code/c++/cppp/Makefile",
+		"/home/ww/code/c++/cppp/Folder.h",
+		"/home/ww/code/c++/cppp/HasPtrUseCount.cc",
+		"/home/ww/code/c++/cppp/leetcode/dp.cc",
+		"/home/ww/code/c++/cppp/asscon/erasemap.cc",
+		"/home/ww/code/c++/cppp/asscon/map1.cc",
+		"/home/ww/code/c++/cppp/asscon/multimap.cc",
+		"/home/ww/code/c++/cppp/asscon/pair.cc",
+		"/home/ww/code/c++/cppp/asscon/restricted_count.cc",
+		"/home/ww/code/c++/cppp/asscon/setOps.cc",
+		"/home/ww/code/c++/cppp/asscon/unorderedWordCount.cc",
+		"/home/ww/code/c++/cppp/asscon/wcEx.cc",
+		"/home/ww/code/c++/cppp/asscon/word_count.cc",
+		"/home/ww/code/c++/cppp/asscon/word_transform.cc",
+		"/home/ww/code/c++/cppp/Folder.cc",
 		"/home/ww/code/linux/cnetool/include/common/debug.h",
 		"/home/ww/code/linux/cnetool/src/stream_interface.c",
 		"/home/ww/code/linux/cnetool/include/types/stream_interface.h",
@@ -339,50 +329,23 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "copyNoMove.cc",
-					"settings":
-					{
-						"buffer_size": 470,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								238,
-								238
-							]
-						],
-						"settings":
-						{
-							"auto_name": "#include <utility>",
-							"syntax": "Packages/C++/C++.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
 					"file": "Makefile",
 					"settings":
 					{
-						"buffer_size": 166,
+						"buffer_size": 289,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								20,
-								20
+								289,
+								289
 							]
 						],
 						"settings":
@@ -396,83 +359,28 @@
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "Folder.h",
+					"buffer": 1,
+					"file": "asscon/erasemap.cc",
 					"settings":
 					{
-						"buffer_size": 2063,
+						"buffer_size": 1074,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								567,
-								567
+								154,
+								154
 							]
 						],
 						"settings":
 						{
-							"auto_name": "#ifndef FOLDER_H",
 							"syntax": "Packages/C++/C++.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "HasPtrUseCount.cc",
-					"settings":
-					{
-						"buffer_size": 2508,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1979,
-								1979
-							]
-						],
-						"settings":
-						{
-							"auto_name": "#include <string>",
-							"syntax": "Packages/C++/C++.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 867.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "Folder.cc",
-					"settings":
-					{
-						"buffer_size": 6351,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1823,
-								1823
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/C++/C++.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 2856.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
