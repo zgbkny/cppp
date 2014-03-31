@@ -111,56 +111,8 @@
 			"file": "Makefile",
 			"settings":
 			{
-				"buffer_size": 431,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "asscon/erasemap.cc",
-			"settings":
-			{
-				"buffer_size": 1074,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "leetcode/dp.cc",
-			"settings":
-			{
-				"buffer_size": 1514,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "leetcode/arraycode.cc",
-			"settings":
-			{
-				"buffer_size": 1248,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "asscon/cppp_map.cc",
-			"settings":
-			{
-				"buffer_size": 0,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "asscon/cppp_set.cc",
-			"settings":
-			{
-				"buffer_size": 0,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "leetcode/listcode.cc",
-			"settings":
-			{
-				"buffer_size": 979,
-				"line_ending": "Unix"
+				"buffer_size": 481,
+				"line_ending": "Windows"
 			}
 		}
 	],
@@ -232,6 +184,12 @@
 	},
 	"file_history":
 	[
+		"/F/data/code/c++/cppp/asscon/erasemap.cc",
+		"/F/data/code/c++/cppp/leetcode/dp.cc",
+		"/F/data/code/c++/cppp/leetcode/arraycode.cc",
+		"/F/data/code/c++/cppp/asscon/cppp_map.cc",
+		"/F/data/code/c++/cppp/asscon/cppp_set.cc",
+		"/F/data/code/c++/cppp/leetcode/listcode.cc",
 		"/home/ww/code/c++/cppp/asscon/makefile",
 		"/home/ww/code/c++/cppp/copyNoMove.cc",
 		"/home/ww/code/c++/cppp/Makefile",
@@ -377,183 +335,20 @@
 					"file": "Makefile",
 					"settings":
 					{
-						"buffer_size": 431,
+						"buffer_size": 481,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								390,
-								390
+								294,
+								294
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/Makefile/Makefile.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "asscon/erasemap.cc",
-					"settings":
-					{
-						"buffer_size": 1074,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								267,
-								267
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/C++/C++.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "leetcode/dp.cc",
-					"settings":
-					{
-						"buffer_size": 1514,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								982,
-								982
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/C++/C++.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "leetcode/arraycode.cc",
-					"settings":
-					{
-						"buffer_size": 1248,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								886,
-								886
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/C++/C++.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 221.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "asscon/cppp_map.cc",
-					"settings":
-					{
-						"buffer_size": 0,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/C++/C++.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "asscon/cppp_set.cc",
-					"settings":
-					{
-						"buffer_size": 0,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/C++/C++.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "leetcode/listcode.cc",
-					"settings":
-					{
-						"buffer_size": 979,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								778,
-								778
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/C++/C++.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,

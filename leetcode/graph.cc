@@ -1,6 +1,7 @@
 #include <iostream>
 #include <vector>
 #include <map>
+#include <queue>
 
 using namespace std;
 struct UndirectedGraphNode {
@@ -29,9 +30,11 @@ public:
     UndirectedGraphNode *cloneGraph(UndirectedGraphNode *node) {
         map<UndirectedGraphNode *, UndirectedGraphNode *> mp;
         UndirectedGraphNode *tmpNode = node;
+        queue<int> q;
         if (tmpNode) {
             mp[tmpNode] = new UndirectedGraphNode(tmpNode->label);
-            while (tmpNode.neighbors.size() > 0) {
+            q.push(mp[tmpNode]);
+            while (!q.empty()) {
                 for (int i = 0; i < tmpNode.neighbors.size(); i++) {
                     if (mp[tmpNode.neighbors[i]] != 0) {
                         mp[tmpNode.neighbors[i]] = new UndirectedGraphNode(tmpNode.neighbors[i]->label);
