@@ -1,13 +1,12 @@
 #include <iostream>
+#include <vector>
 #include <map>
 
-using std::map;
-using std::cout;
-using std::endl;
-struct RandomListNode {
+using namespace std;
+struct UndirectedGraphNode {
     int label;
-    RandomListNode *next, *random;
-    RandomListNode(int x) : label(x), next(NULL), random(NULL) {}
+    vector<UndirectedGraphNode *> neighbors;
+    UndirectedGraphNode(int x) : label(x) {};
 };
 class Solution {
 public:
@@ -26,6 +25,20 @@ public:
             node = node->next;
         }
         return mp[head];
+    }
+    UndirectedGraphNode *cloneGraph(UndirectedGraphNode *node) {
+        map<UndirectedGraphNode *, UndirectedGraphNode *> mp;
+        UndirectedGraphNode *tmpNode = node;
+        if (tmpNode) {
+            mp[tmpNode] = new UndirectedGraphNode(tmpNode->label);
+            while (tmpNode.neighbors.size() > 0) {
+                for (int i = 0; i < tmpNode.neighbors.size(); i++) {
+                    if (mp[tmpNode.neighbors[i]] != 0) {
+                        mp[tmpNode.neighbors[i]] = new UndirectedGraphNode(tmpNode.neighbors[i]->label);
+                    }
+                }
+            }
+        }
     }
 };
 
