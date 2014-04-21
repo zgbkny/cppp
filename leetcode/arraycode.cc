@@ -60,6 +60,23 @@ public:
         }
         return total >= 0 ? j + 1 : -1;
     }
+    int search(int A[], int n, int target) {
+        int i = 0;   
+        for (i; i < n; i++) {
+            if (target == A[i]) return i;
+        }
+        return -1;
+    }
+    bool searchDup(int A[], int n, int target) {
+        int i = 0;   
+        for (i; i < n; i++) {
+            if (target == A[i]) return true;
+        }
+        return false;
+    }
+    double findMedianSortedArrays(int A[], int m, int B[], int n) {
+        
+    }
 };
 
 int main()

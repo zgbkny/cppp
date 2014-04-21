@@ -30,18 +30,22 @@ public:
     UndirectedGraphNode *cloneGraph(UndirectedGraphNode *node) {
         map<UndirectedGraphNode *, UndirectedGraphNode *> mp;
         UndirectedGraphNode *tmpNode = node;
-        queue<int> q;
+        queue<UndirectedGraphNode *> q;
         if (tmpNode) {
             mp[tmpNode] = new UndirectedGraphNode(tmpNode->label);
-            q.push(mp[tmpNode]);
+            q.push(tmpNode);
             while (!q.empty()) {
-                for (int i = 0; i < tmpNode.neighbors.size(); i++) {
-                    if (mp[tmpNode.neighbors[i]] != 0) {
-                        mp[tmpNode.neighbors[i]] = new UndirectedGraphNode(tmpNode.neighbors[i]->label);
+                tmpNode = q.front();q.pop();
+                for (int i = 0; i < tmpNode->neighbors.size(); i++) {
+                    if (mp[tmpNode->neighbors[i]] == 0) {
+                        mp[tmpNode->neighbors[i]] = new UndirectedGraphNode(tmpNode->neighbors[i]->label);
+                        q.push(tmpNode->neighbors[i]);
                     }
+                    mp[tmpNode]->neighbors.push_back(mp[tmpNode->neighbors[i]]);
                 }
             }
         }
+        return mp[node];
     }
 };
 

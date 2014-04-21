@@ -21,6 +21,9 @@ public:
         }
 
     }
+    vector<string> wordBreak(string s, unordered_set<string> &dict) {
+        
+    }
 };
 
 int main()
