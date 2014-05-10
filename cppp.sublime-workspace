@@ -108,26 +108,18 @@
 	"buffers":
 	[
 		{
-			"file": "Makefile",
+			"file": "leetcode/arraycode.cc",
 			"settings":
 			{
-				"buffer_size": 481,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "leetcode/graph.cc",
-			"settings":
-			{
-				"buffer_size": 1855,
+				"buffer_size": 4111,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "leetcode/strcode.cc",
+			"file": "Makefile",
 			"settings":
 			{
-				"buffer_size": 767,
+				"buffer_size": 481,
 				"line_ending": "Unix"
 			}
 		}
@@ -200,6 +192,10 @@
 	},
 	"file_history":
 	[
+		"/home/ww/code/c++/cppp/leetcode/arraycode.cc",
+		"/home/ww/code/c++/cppp/Makefile",
+		"/home/ww/code/c++/cppp/leetcode/strcode.cc",
+		"/home/ww/code/c++/cppp/leetcode/graph.cc",
 		"/F/data/code/c++/cppp/asscon/erasemap.cc",
 		"/F/data/code/c++/cppp/leetcode/dp.cc",
 		"/F/data/code/c++/cppp/leetcode/arraycode.cc",
@@ -208,7 +204,6 @@
 		"/F/data/code/c++/cppp/leetcode/listcode.cc",
 		"/home/ww/code/c++/cppp/asscon/makefile",
 		"/home/ww/code/c++/cppp/copyNoMove.cc",
-		"/home/ww/code/c++/cppp/Makefile",
 		"/home/ww/code/c++/cppp/Folder.h",
 		"/home/ww/code/c++/cppp/HasPtrUseCount.cc",
 		"/home/ww/code/c++/cppp/leetcode/dp.cc",
@@ -343,10 +338,39 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
+					"file": "leetcode/arraycode.cc",
+					"settings":
+					{
+						"buffer_size": 4111,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1271,
+								1271
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 408.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
 					"file": "Makefile",
 					"settings":
 					{
@@ -357,69 +381,13 @@
 						"selection":
 						[
 							[
-								344,
-								344
+								481,
+								481
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/Makefile/Makefile.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 51.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "leetcode/graph.cc",
-					"settings":
-					{
-						"buffer_size": 1855,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1295,
-								1295
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/C++/C++.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 51.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "leetcode/strcode.cc",
-					"settings":
-					{
-						"buffer_size": 767,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								613,
-								613
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/C++/C++.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
