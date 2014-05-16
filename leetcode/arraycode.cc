@@ -282,6 +282,36 @@ public:
         }
         return ret;   
     }
+    void findInLow(vector<int> &data, int n, int product, int k) {
+        int i = 0, tmp = k;
+        for ( ; n > 0; n--, i++) {
+            if (k >= product) break;
+            else product /= n;
+        }
+        tmp = k - product;
+        if (tmp > 2) {
+
+        } else if (tmp > 0) {
+            if (tmp == 2) {
+
+            } else {
+
+            }
+        } else {
+            
+        }
+    }
+    string getPermutation(int n, int k) {
+        vector<int> data;
+        string ret(n);
+        int i = 0, product = 0, tmp = 0;   
+        for ( ; i < n; i++) {
+            data.push_back(i + 1);
+            product *= (i + 1);
+        }
+        findInLow(data, n, product, k);
+        
+    }
  /* vector<vector<int> > threeSum(vector<int> &num) {
         // Start typing your C/C++ solution below
         // DO NOT write int main() function
