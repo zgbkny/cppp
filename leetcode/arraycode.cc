@@ -283,22 +283,24 @@ public:
         return ret;   
     }
     void findInLow(vector<int> &data, int n, int product, int k) {
-        int i = 0, tmp = k;
-        for ( ; n > 0; n--, i++) {
+        int i = 0, tmp = k, m = n;
+        for ( ; m > 0; m--, i++) {
             if (k >= product) break;
-            else product /= n;
+            else product /= m;
         }
         tmp = k - product;
         if (tmp > 2) {
-
+            findInLow(data, m, product, tmp);
         } else if (tmp > 0) {
-            if (tmp == 2) {
-
-            } else {
+            if (tmp == 2) { // reverse the last two
+                tmp = data[data.size() - 2];
+                data[data.size() - 2] = data[data.size() - 1];
+                data[data.size() - 1] = tmp;
+            } else { // do nothing
 
             }
-        } else {
-            
+        } else { // from n - m to data.size() sort descend
+            sort(data.begin() + n - m, data.end(), compare());
         }
     }
     string getPermutation(int n, int k) {
@@ -311,6 +313,47 @@ public:
         }
         findInLow(data, n, product, k);
         
+    }
+    bool isValidSudoku(vector<vector<char> > &board)
+    {
+        map<int, int> mp;
+        int i = 0, j = 0, k = 0, h = 0;
+        for (i = 0; i < 9; i++) {
+            vector<char> tmp = board[i];
+            mp.clear();
+            for (j = 0; j < 9; j++) {
+                if (tmp[j] != '.' && (tmp[j] > 47 && tmp[j] < 58)) {
+                    if (mp[tmp[j]] > 0) return false;
+                    mp[tmp[j]]++;
+                }
+            }
+        }
+        for (i = 0; i < 9; i++) {
+            mp.clear();
+            for (j = 0; j < 9; j++) {
+                vector<char> tmp = board[j];
+                if (tmp[i] != '.' && (tmp[i] > 47 && tmp[i] < 58)) {
+                    if (mp[tmp[i]] > 0) return false;
+                    mp[tmp[i]]++;
+                }
+            }
+        }
+        for (i = 0; i < 3; i++) {
+            for (j = 0; j < 3; j++) {
+                mp.clear();
+                for (k = 0; k < 3; k++) {
+                    vector<char> tmp = board[i * 3 + k];
+                    for (h = 0; h < 3; h++) {
+                        if (tmp[j * 3 + h] != '.' && (tmp[j * 3 + h] > 47 && tmp[j * 3 + h] < 58)) {
+                            if (mp[tmp[j * 3 + h]] > 0) return false;
+                            mp[tmp[j * 3 + h]]++;
+                        }
+                    }
+                    
+                }
+            }
+        }
+        return true;
     }
  /* vector<vector<int> > threeSum(vector<int> &num) {
         // Start typing your C/C++ solution below
